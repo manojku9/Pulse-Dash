@@ -1,0 +1,17 @@
+{
+  "name": "pulse-dash",
+  "version": "1.0.0",
+  "description": "Pulse Dash - A game with Vercel Web Analytics",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static HTML build - no build step needed'",
+    "lint": "echo 'No linting configured'"
+  },
+  "keywords": ["game", "pulse-dash"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/analytics": "^1.3.1"
+  }
+}
